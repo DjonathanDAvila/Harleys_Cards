@@ -70,7 +70,11 @@ fun HarleysLayout() {
         verticalArrangement = Arrangement.Center
     ) {
         if (card != null) {
-            Image(painter = painterResource(id = card.imagem), contentDescription = null)
+            Image(
+                painter = painterResource(id = card.imagem),
+                contentDescription = null,
+                modifier = Modifier.size(400.dp)
+            )
         }
         Column(
             modifier = Modifier
@@ -87,7 +91,7 @@ fun HarleysLayout() {
             horizontalArrangement = Arrangement.Center
         ) {
             Button(
-                onClick = { id = if (id > 1) id - 1 else 4},
+                onClick = { id = if (id > 1) id - 1 else 4 },
                 modifier = Modifier
                     .weight(1f)
                     .width(0.dp)
