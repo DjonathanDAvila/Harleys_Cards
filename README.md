@@ -1,7 +1,5 @@
-# Noções básicas do Android com o Compose
-----------------------------------------
-# app-Harleys_Cards
--------------------
+# Noções básicas do Android com o Compose # app-Harleys_Cards
+-------------------------------------------------------------
 
 Desafio proposto pelo Codelab "Criar um app de galeria de arte" da unidade 2 
 
